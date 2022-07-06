@@ -1,0 +1,48 @@
+.container{
+    max-width: 70%;
+    /* background-color: rgb(185, 128, 237); */
+    padding-top: 30%;
+    padding: 34px;
+    margin: auto;
+}
+div:hover{
+    background-color: rgb(185, 128, 237);
+    transition-duration: 1s;
+    opacity: 0.9;
+
+}
+.container h1,p{
+text-align: center;
+}
+#age,#gender{
+    width: 45%;
+}
+input , textarea{
+    width: 95%;
+    margin: 11px;
+    padding: 7px;
+    font-size: 15px ;
+    font-style: oblique;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: 2px solid black;
+    border-bottom-right-radius: 20px;
+
+}
+.btn{
+    padding: 5px;
+    margin-left: 10px;
+    background-color: rgb(171, 241, 241);
+
+    
+}
+button:hover{
+    background-color: aqua;
+    transition-duration: 1s;
+    box-shadow: 5px 5px black;
+}
+.bg{
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+
+}
